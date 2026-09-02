@@ -1,7 +1,7 @@
 step,object,x,y,zoom,page,question,answer,alt_text,layer1_button,layer1_content,layer2_button,layer2_content,clip_start,clip_end,loop
 paso,objeto,x,y,zoom,pagina,pregunta,respuesta,texto_alt,boton1,contenido1,boton2,contenido2,inicio_clip,fin_clip,bucle
 1,introduccion,0.5,0.5,1,,How is education connected to the government?,Simon Rodriguez presents education as an organic system connected directly to government.,,,blank_template-government-decrees-require.md,,blank_template-education-defines-the.md,,,
-2,introduccion,0.5,0.5,1,,Why does he distinguish instruction from education?,"""Instruir no es EDUCAR"" - ""To instruct is not to educate"". He distinguishes between the two to show simple instruction presented as education is not truly an education at all. ",,,blank_template-education-forms-social.md,,,,,
+2,introduccion,0.5,0.5,1,,Why does he distinguish instruction from education?,"""Instruir no es EDUCAR"" - ""To instruct is not to educate"". He distinguishes between the two to show simple instruction presented as education is not truly an education at all. ",,,blank_template-step2-layer1.md,,,,,
 3,louie-the-goat,0.5083621544397329,0.34863559521722626,3.0159184895999993,,How does government/politics contribute to education?,"By showing people the right form of writing in these ""prints"". ",,Learn more,blank_template-social-education.md,,,,,
 4,introduccion,0.5098835199376134,0.2796046270252185,2.9859839999999993,,What is the purpose of universal education?,"Including everyone without exception 
 Universal meant everyone in this context
