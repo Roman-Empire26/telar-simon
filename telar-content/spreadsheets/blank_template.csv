@@ -1,5 +1,14 @@
-step,object,page,x,y,zoom,clip_start,clip_end,loop,alt_text,question,answer,layer1_button,layer1_content,layer2_button,layer2_content
-#,object_id from the objects tab,for multi-page items,horizontal position 0-1 (0.5 = center),vertical position 0-1 (0.5 = center),(1.0 = full image),"Start time for video/audio clips, e.g. ""1:30"" (m:ss) or ""90"" (seconds)",End time for video/audio clips,yes to loop the clip,"Describe what is visible in this zoomed view for screen readers. If empty, the object's image description is used.",Heading for this step,Brief 1-2 sentence text,"Optional button text (default: ""Learn more"")","Panel content: write text here, paste markdown, or enter path to .md file (e.g. your-story/file.md)","Optional second button text (default: ""Go deeper"")","Second panel: write text here, paste markdown, or enter path to .md file"
-1,telar-placeholder,,,,,,,,,question,answer,,,,
-2,telar-placeholder,,,,,,,,,question,answer,,,,
-3,telar-placeholder,,,,,,,,,question,answer,,,,
+step,object,x,y,zoom,page,question,answer,alt_text,layer1_button,layer1_content,layer2_button,layer2_content,clip_start,clip_end,loop
+paso,objeto,x,y,zoom,pagina,pregunta,respuesta,texto_alt,boton1,contenido1,boton2,contenido2,inicio_clip,fin_clip,bucle
+1,introduccion,0.5,0.5,1,,How is education connected to the government?,Simon Rodriguez presents education as an organic system connected directly to government.,,,blank_template-government-decrees-require.md,,blank_template-education-defines-the.md,,,
+2,introduccion,0.5,0.5,1,,Why does he distinguish instruction from education?,"""Instruir no es EDUCAR"" - ""To instruct is not to educate"". He distinguishes between the two to show simple instruction presented as education is not truly an education at all. ",,,blank_template-education-forms-social.md,,,,,
+3,louie-the-goat,0.5083621544397329,0.34863559521722626,3.0159184895999993,,How does government/politics contribute to education?,"By showing people the right form of writing in these ""prints"". ",,Learn more,blank_template-social-education.md,,,,,
+4,introduccion,0.5098835199376134,0.2796046270252185,2.9859839999999993,,"What is the purpose of universal education? ","Including everyone without exception 
+Universal meant everyone in this context
+",,Learn more,blank_template-learn-more.md,,,,,
+5,louie-the-goat,0.5,0.5107125946969696,1,,How is education connected to politics in Rodriguez eyes?,"By teaching the masses
+Everyone has the right to be educated
+The revolutionary values 
+
+",,,,,,,,
+6,introduccion,0.5,0.5,1,,"How is can education connect individuals to the overall social body ",,,,,,,,,
